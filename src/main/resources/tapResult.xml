@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.tupilabs.test.xstream.TestSetMap>
+    <fileName>dbcallsLockExists.tap</fileName>
+    <testSet>
+        <plan>
+            <diagnostic class="linked-hash-map" />
+            <initialTestNumber>1</initialTestNumber>
+            <lastTestNumber>1</lastTestNumber>
+        </plan>
+        <tapLines class="linked-list">
+            <org.tap4j.model.Text>
+                <diagnostic class="linked-hash-map" />
+                <value>/opt/performance/scripts/t/errortest1.t ..</value>
+            </org.tap4j.model.Text>
+            <org.tap4j.model.TestResult>
+                <diagnostic class="linked-hash-map" />
+                <status>NOT_OK</status>
+                <testNumber>1</testNumber>
+                <description>- 3 - Reserved</description>
+                <comments class="linked-list">
+                    <org.tap4j.model.Comment>
+                        <diagnostic class="linked-hash-map" />
+                        <text>Lock file [/opt/performance/locks/dbcalls.lock] Exists; Already Running</text>
+                        <inline>false</inline>
+                    </org.tap4j.model.Comment>
+                    <org.tap4j.model.Comment>
+                        <diagnostic class="linked-hash-map" />
+                        <text>Failed test '3 - Reserved</text>
+                        <inline>false</inline>
+                    </org.tap4j.model.Comment>
+                    <org.tap4j.model.Comment>
+                        <diagnostic class="linked-hash-map" />
+                        <text>Lock file [/opt/performance/locks/dbcalls.lock] Exists;
+                            dbcalls Already Running'</text>
+                        <inline>false</inline>
+                    </org.tap4j.model.Comment>
+                    <org.tap4j.model.Comment>
+                        <diagnostic class="linked-hash-map" />
+                        <text>at /opt/performance/scripts/t/errortest1.t line 59.</text>
+                        <inline>false</inline>
+                    </org.tap4j.model.Comment>
+                    <org.tap4j.model.Comment>
+                        <diagnostic class="linked-hash-map" />
+                        <text>'3'</text>
+                        <inline>false</inline>
+                    </org.tap4j.model.Comment>
+                    <org.tap4j.model.Comment>
+                        <diagnostic class="linked-hash-map" />
+                        <text>doesn't match '/0$/'</text>
+                        <inline>false</inline>
+                    </org.tap4j.model.Comment>
+                    <org.tap4j.model.Comment>
+                        <diagnostic class="linked-hash-map" />
+                        <text>Looks like you failed 1 test of 1.</text>
+                        <inline>false</inline>
+                    </org.tap4j.model.Comment>
+                </comments>
+            </org.tap4j.model.TestResult>
+            <org.tap4j.model.Comment reference="../org.tap4j.model.TestResult/comments/org.tap4j.model.Comment" />
+            <org.tap4j.model.Comment reference="../org.tap4j.model.TestResult/comments/org.tap4j.model.Comment[2]" />
+            <org.tap4j.model.Comment reference="../org.tap4j.model.TestResult/comments/org.tap4j.model.Comment[3]" />
+            <org.tap4j.model.Comment reference="../org.tap4j.model.TestResult/comments/org.tap4j.model.Comment[4]" />
+            <org.tap4j.model.Comment reference="../org.tap4j.model.TestResult/comments/org.tap4j.model.Comment[5]" />
+            <org.tap4j.model.Comment reference="../org.tap4j.model.TestResult/comments/org.tap4j.model.Comment[6]" />
+            <org.tap4j.model.Comment reference="../org.tap4j.model.TestResult/comments/org.tap4j.model.Comment[7]" />
+            <org.tap4j.model.Text>
+                <diagnostic class="linked-hash-map" />
+                <value>Dubious, test returned 1 (wstat 256, 0x100)</value>
+            </org.tap4j.model.Text>
+            <org.tap4j.model.Text>
+                <diagnostic class="linked-hash-map" />
+                <value>Failed 1/1 subtests</value>
+            </org.tap4j.model.Text>
+            <org.tap4j.model.Text>
+                <diagnostic class="linked-hash-map" />
+                <value>Test Summary Report</value>
+            </org.tap4j.model.Text>
+            <org.tap4j.model.Text>
+                <diagnostic class="linked-hash-map" />
+                <value>-------------------</value>
+            </org.tap4j.model.Text>
+            <org.tap4j.model.Text>
+                <diagnostic class="linked-hash-map" />
+                <value>/opt/performance/scripts/t/errortest1.t (Wstat: 256 Tests: 1 Failed: 1)</value>
+            </org.tap4j.model.Text>
+            <org.tap4j.model.Text>
+                <diagnostic class="linked-hash-map" />
+                <value>Failed test: 1</value>
+            </org.tap4j.model.Text>
+            <org.tap4j.model.Text>
+                <diagnostic class="linked-hash-map" />
+                <value>Non-zero exit status: 1</value>
+            </org.tap4j.model.Text>
+            <org.tap4j.model.Text>
+                <diagnostic class="linked-hash-map" />
+                <value>Files=1, Tests=1, 0 wallclock secs ( 0.02 usr 0.00 sys + 0.24 cusr 0.03 csys = 0.29 CPU)</value>
+            </org.tap4j.model.Text>
+            <org.tap4j.model.Text>
+                <diagnostic class="linked-hash-map" />
+                <value>Result: FAIL</value>
+            </org.tap4j.model.Text>
+        </tapLines>
+        <testResults class="linked-list">
+            <org.tap4j.model.TestResult reference="../../tapLines/org.tap4j.model.TestResult" />
+        </testResults>
+        <bailOuts class="linked-list" />
+        <comments class="linked-list">
+            <org.tap4j.model.Comment reference="../../tapLines/org.tap4j.model.TestResult/comments/org.tap4j.model.Comment" />
+            <org.tap4j.model.Comment reference="../../tapLines/org.tap4j.model.TestResult/comments/org.tap4j.model.Comment[2]" />
+            <org.tap4j.model.Comment reference="../../tapLines/org.tap4j.model.TestResult/comments/org.tap4j.model.Comment[3]" />
+            <org.tap4j.model.Comment reference="../../tapLines/org.tap4j.model.TestResult/comments/org.tap4j.model.Comment[4]" />
+            <org.tap4j.model.Comment reference="../../tapLines/org.tap4j.model.TestResult/comments/org.tap4j.model.Comment[5]" />
+            <org.tap4j.model.Comment reference="../../tapLines/org.tap4j.model.TestResult/comments/org.tap4j.model.Comment[6]" />
+            <org.tap4j.model.Comment reference="../../tapLines/org.tap4j.model.TestResult/comments/org.tap4j.model.Comment[7]" />
+        </comments>
+    </testSet>
+</com.tupilabs.test.xstream.TestSetMap>
